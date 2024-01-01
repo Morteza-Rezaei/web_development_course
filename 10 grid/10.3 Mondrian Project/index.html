@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mondrian Project</title>
+  <style>
+    body {
+      padding-top: 30px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .container {
+      justify-content: center;
+      
+      background-color: #232629;
+      display: grid;
+      gap: 9px;
+      grid-template-columns: 50px 175px 150px 100px;
+      grid-template-rows:225px 100px 125px 25px;
+    }
+    .orange {
+      background-color: #f57d14;
+      grid-column: span 2;
+    }
+    .yellow {
+      background-color: #fbfb52;
+      grid-row: span 2;
+    }
+    .blue {
+      background-color: #3246ff;
+    }
+    .gray {
+      background-color: #dfdfdf;
+    }
+
+    .one {
+      grid-column: span 2;
+    }
+    .two {
+      grid-column: span 2;
+    }
+    .three {
+      grid-column: span 2;
+    }
+    .four {
+      grid-row: span 2;
+    }
+    .five {
+      grid-row: span 2;
+    }
+    
+
+  </style>
+</head>
+
+<body>
+  <div class="container">
+    <div class="orange"></div>
+    <div class="gray one"></div>
+    <div class="gray two"></div>
+    <div class="gray three"></div>
+    <div class="yellow"></div>
+    <div class="gray four"></div>
+    <div class="blue"></div>
+    <div class="gray five"></div>
+    <div class="gray six"></div>
+    
+  </div>
+</body>
+
+</html>
